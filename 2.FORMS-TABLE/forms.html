@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esto es un formulario con OpenBootcamp</title>
+</head>
+<body>  
+    <form action="resultados.html" method="GET">
+        <div>
+            <label for="nombre-user">Nombre</label>
+            <input type="text" name="nombre-user" id="nombre-user" value="Input name" required>
+        </div>
+        <div>
+            <label for="pwd-user">Contrasena</label>
+            <input type="password" name="pwd-user" id="pwd-user" value="password here" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="edad">Cual es tu edad</label>
+            <input type="number" name="edad" id="edad" min="1" max="100" step="5"  required>
+        </div>
+        <div>
+            <label for="date"></label>
+            <input type="date" name="nacimiento" id="nacimiento">
+        </div>
+        <div>
+            <label for="txt-comentarios" name="txt-comentarios">comentarios</label>
+            <textarea >
+
+            </textarea>
+        </div>
+        <div>
+            <button type="reset">Reset</button><!--boton para resetear formularios-->
+            <button type="submit">Enviar</button>
+        </div>
+    
+    </form>
+    
+</body>
+</html>
