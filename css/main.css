@@ -1,0 +1,35 @@
+h1{
+    font-size: 20pt;
+    color: red;
+}
+section{
+    color: blue;
+    list-style: upper-latin;
+}
+section h6{
+    color: orange;
+}
+div p{
+    color: green;
+}
+div>h4{
+    color:khaki;
+}
+
+h1+p{
+    color: aqua;
+    font-size: 20px;
+}
+.parrafo1~p{
+    color: blueviolet;
+} 
+.t-container{
+    color: greenyellow;
+    font-size: 15pt;
+    font-family: antialiased;
+    border: 4px  solid black;
+    text-align: center;
+}
+.t-container:hover{
+    transform: rotate(180grad);
+}

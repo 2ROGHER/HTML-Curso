@@ -1,0 +1,25 @@
+*{
+    width: 100%;
+}
+.div-1{
+    border: 2px solid red;
+    display: inline;
+}
+.div-2{
+    border: 2px solid blue;
+    display: inline;
+}
+.span-1{
+    border: 2px solid green;
+}
+.span-2{
+    border: 2px solid orange;
+}
+img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;/*Esto permite  trabajar con las medidad de un elemento*/
+}
+.contenedor-2{
+    border: 5px solid black;
+}

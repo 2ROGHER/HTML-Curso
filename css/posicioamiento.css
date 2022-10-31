@@ -1,0 +1,98 @@
+*{
+    width: auto;
+    height: auto;
+    
+}
+.contenedor{
+    border: 5px solid black;
+}
+/*diplay: es la propiedad usada para determinar el tipo de caja usada para presentar el elemento en la pantalla */
+.caja-1{
+    background-color: red;
+    border: 5px solid green;
+   
+    
+}
+.caja-2{
+    background-color: orange;
+    border: 5px solid blue; 
+    display:  inline-block;
+    width: 50%;
+}
+.caja-3{
+    /*el vaolor de la propiedad display: inline-block, posicciona elelemento en linea y con el tamano personalizado*/
+    background-color: aqua;
+    border: 5px solid burlywood;
+    display: inline-block;
+    width: 20%;
+    
+}
+.caja-4{
+    background-color: blueviolet;
+    border: 5px solid yellow;
+    display: inline;
+}
+.caja-5{
+    background-color: brown;
+    border: 5px solid orchid;
+    display: inline;
+}
+/*modelo de caja tradicional*/
+.contenedor-2{
+    border: 5px solid black;
+    margin-top: 20px;
+    /*esta propiedad permite que el contenedor pueda ajustarse a los elementos flotante*/
+    column-count: 3;
+    column-fill: balance;
+    column-gap: 20px;
+    column-rule-style: dashed;
+    column-rule-color:green;
+
+
+}
+.caja-a{
+    background-color: blueviolet;
+    border: 2px solid yellow;
+    
+}
+.caja-b{
+    background-color: aqua;
+    border: 2px solid burlywood;
+}
+.caja-c{
+    background-color: orange;
+    border: 2px solid blue; 
+}
+.clear{
+    clear: both;
+}
+.contenedor-3{
+    border: 5px solid black;
+    margin-top: 20px;
+    height:100px;
+    /*esta propiedad permite que el contenedor pueda ajustarse a los elementos flotante*/
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;/*alinea las cajas en el eje x*/
+    /*align-content: center; tiene la funcion similar a align-items*/
+    /*align-items alinea las cajas en el eje vertical o y*/
+    flex-wrap: nowrap;
+}
+.caja-a1{
+    background-color: blueviolet;
+    border: 2px solid yellow;
+    height: 80px;
+    
+}
+.caja-b2{
+    background-color: aqua;
+    border: 2px solid burlywood;
+    height: 80px;
+}
+.caja-c3{
+    background-color: orange;
+    border: 2px solid blue; 
+    height: 80px;
+}
+
